@@ -21,8 +21,15 @@ export default function Home( {allPostsData} ) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
+      <section>
+        <div class="container mx-auto bg-red-600">
+          <p class="font-serif text-2xl">Just some quick text</p>
+        </div>
+      </section>
       
       <section className={utilStyles.headingMd}>
+        <h1 className='text-3xl font-bold underline'> Using Tailwind Styling here</h1>
         <p>Hello, I'm Paul. A software engineering. I built this using Next.js</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
